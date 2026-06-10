@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Generated output files
+outputs/*.blend
+outputs/*.blend1
+outputs/temp_execution.py
+outputs/test_script.py
+
+# LaTeX build artifacts (report)
+report/*.aux
+report/*.bbl
+report/*.blg
+report/*.log
+report/*.out
+report/*.fdb_latexmk
+report/*.fls
+report/*.synctex.gz
+
+# OS files
+.DS_Store
+Thumbs.db
